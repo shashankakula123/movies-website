@@ -1,0 +1,40 @@
+footer{
+  position:absolute;
+  bottom:0;
+}
+.header{
+  background-color: rgb(36,40,47);
+  margin: 0;
+  color:rgb(171,179,183);
+  padding-left: 140px;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(36,40,47);
+  padding: 2% 8%;
+  height: 100vh;
+}
+.card{
+  width:calc( 20% - 16px );
+  margin: 4px 8px;
+}
+
+.thumbnail{
+  width: 100%;
+}
+.title{
+  color:rgb(171,179,183);
+  margin: 0;
+  visibility: hidden;
+}
+
+.card:hover .title{
+visibility: visible;
+
+}
+#loader{
+  font-size: 100px;
+  color: rgb(171,179,183);
+}
